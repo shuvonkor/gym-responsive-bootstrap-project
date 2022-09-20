@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #FD3C3D;
+}
+
+.nav-item a {
+    color: #fff;
+}
+
+.navbar-brand img {
+    width: 140px;
+}
+
+/* carousel design  */
+.carousel-caption {
+    margin-bottom: 10%;
+}
+
+.carousel-caption h1 {
+    font-size: 5rem;
+}
+
+.carousel-caption p {
+    font-size: 1.5rem;
+}
+
+.carousel-caption h4 {
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.carousel-caption button {
+    padding: 10px 60px;
+    margin: 0 20px;
+}
+
+@media only screen and (min-width: 736px) {
+    .carousel-indicators [data-bs-target] {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 952px) {
+    .carousel-caption {
+        margin-bottom: 6%;
+    }
+
+    .carousel-caption h1 {
+        font-size: 3rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+
+    .carousel-caption h4 {
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+
+    .carousel-caption button {
+        padding: 8px 40px;
+        margin: 0 15px;
+    }
+}
+
+@media only screen and (max-width: 705px) {
+    .carousel-caption {
+        margin-bottom: 0%;
+    }
+
+    .carousel-caption h1 {
+        font-size: 2rem;
+    }
+
+    .carousel-caption p {
+        font-size: .8rem;
+        margin: 0;
+    }
+
+    .carousel-caption h4 {
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    .carousel-caption h5 {
+        font-size: .8rem;
+        margin: 0;
+    }
+
+    .carousel-caption button {
+        padding: 5px 20px;
+        font-size: .8rem;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .carousel-caption {
+        margin-bottom: 0%;
+    }
+
+    .carousel-caption h1 {
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    .carousel-caption h5 {
+        font-size: .7rem;
+        margin: 0;
+    }
+
+    .carousel-caption p {
+        font-size: .6rem;
+        margin: 0;
+    }
+
+    .carousel-caption h4 {
+        font-size: 1.2rem;
+        padding: 0px;
+    }
+
+    .carousel-caption button {
+        padding: 5px 10px;
+        margin: 0;
+        font-size: .6em;
+    }
+}
+
+/* gym package card */
+.card img {
+    filter: grayscale();
+    transition: filter 0.4s ease-in-out;
+}
+
+.card:hover img {
+    filter: none;
+}
+
+.card-body {
+    background-color: tomato;
+}
+
+@media only screen and (min-width: 1060px) {
+    .package-card {
+        margin-top: -30px;
+    }
+}
+/* Our Story  */
