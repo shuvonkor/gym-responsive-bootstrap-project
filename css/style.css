@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Fugaz One', cursive;
+}
+
 .navbar {
     background-color: #FD3C3D;
 }
@@ -133,17 +137,18 @@
 }
 
 /* gym package card */
-.card img {
+
+.our-story-card img {
     filter: grayscale();
     transition: filter 0.4s ease-in-out;
 }
 
-.card:hover img {
+.our-story-card:hover img {
     filter: none;
 }
 
-.card-body {
-    background-color: tomato;
+.our-story-card-card-body {
+    background-color: #FD3C3D;
 }
 
 @media only screen and (min-width: 1060px) {
@@ -151,4 +156,276 @@
         margin-top: -30px;
     }
 }
+
 /* Our Story  */
+.our-story-background {
+    background-color: #181A1F;
+}
+
+.our-story-heading {
+    color: #FD3C3D;
+    font-size: 55px;
+    position: relative;
+    padding-bottom: 12px;
+}
+
+.our-story-heading::after {
+    content: '';
+    width: 5%;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0%;
+    right: 48%;
+}
+
+.featurs-iteam-text h5 {
+    color: #FD3C3D;
+}
+
+.our-story-right-content {
+    overflow: hidden;
+}
+
+/* .our-story-right-content img{
+    width: 100%;
+    height: 100vh;
+} */
+/* popular-classis  */
+.popular-classis {
+    background-image: url(/image/popular\ clasic\ bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.popular-classis h1 {
+    color: #FD3C3D;
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    font-style: italic;
+    text-align: center;
+    margin: auto;
+    font-weight: bolder;
+}
+
+.popular-classis-card {
+    background-color: #181A1F;
+}
+
+.popular-classis-card::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0%;
+    height: 0%;
+    border-bottom: 3px solid #FD3C3D;
+    border-right: 3px solid #FD3C3D;
+    transition: all .2s ease;
+}
+
+.popular-classis-card:hover::after {
+    width: 95%;
+    height: 95%;
+    border-color: #FD3C3D;
+}
+
+.popular-classis-card-body {
+    border-bottom: 1px solid #fff;
+}
+
+.popular-classis-card-body i {
+    color: #FD3C3D;
+    font-size: 15px;
+    padding-right: 4px;
+}
+
+.popular-classis-price {
+    color: #FD3C3D;
+}
+
+.popular-classis-fa-arrow-right i {
+    color: #FD3C3D;
+}
+
+/* speical offer at gym  */
+.special-offer {
+    background-color: #FD3C3D;
+}
+
+.special-offer-text h1 {
+    font-weight: 700;
+    font-size: 4rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.special-offer-text h3 {
+    font-weight: 600;
+}
+
+.special-offer-text h5 {
+    font-weight: 600;
+}
+
+.special-offer-text h6 {
+    font-weight: 600;
+    background-color: #181A1F;
+    padding: 0 10px;
+}
+
+.special-offer-text p {
+    padding: 20px 0;
+}
+
+.special-offer-text button {
+    color: #fff;
+    background-color: #FD3C3D;
+    padding: 10px 40px;
+    border-color: #fff;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+}
+
+.special-offer-text button:hover {
+    background-color: #fff;
+    color: #FD3C3D;
+    border: none;
+}
+
+.special-offer-left img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+767 @media only screen and (max-width: 767px) {
+
+    .special-offer-text h1,
+    h3,
+    p,
+    button {
+        text-align: center !important;
+        align-items:  !important;
+        justify-content: center !important;
+        margin: auto;
+    }
+}
+
+/* OUR ADVANTAGES  */
+.advantages {
+    background-image: url(/image/our\ advantage.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.our-advantages h1 {
+    color: #FD3C3D;
+    text-align: center;
+    margin: auto;
+    padding: 50px 0;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.advantages-icon img {
+    height: 60px;
+    width: 60px;
+    border: 1px solid #FD3C3D;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.advantages-icon img:hover {
+    background-color: #fff;
+    border: none;
+}
+
+.our-advantage-row {
+    color: white;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+/* Gym statistic  */
+.statistic {
+    background-image: url(/image/statisticbg.jpg);
+    height: auto;
+    width: 100%;
+    text-align: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.statistic-container {
+    padding: 130px 0 !important;
+}
+
+/* OUR TRAINERS  */
+.our-trainers {
+    background-image: url(/image/ourtrainersbg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.trainer-soicial-icon{
+    padding: 10px 0;
+}
+.trainer-soicial-icon a {
+    color: #fff;
+    background-color: #17181b;
+    padding: 5px 10px;
+}
+
+.trainer-soicial-icon a:hover {
+    background-color: #FD3C3D;
+}
+.tranner-image{
+    padding-left: 0;
+    padding-right: 0;
+}
+.tranner-image img {
+    overflow: none;
+    width: 100%;
+    filter: grayscale();
+
+}
+
+.trainer-card {
+    background-color: #181A1F;
+    padding: 0 !important;
+    margin: 0;
+}
+
+.trainer-text h5 {
+    color: #FD3C3D;
+}
+.trainer-text p{
+    padding: 25px 0;
+}
+
+.trainer-card::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0%;
+    height: 0%;
+    border-bottom: 3px solid #FD3C3D;
+    border-right: 3px solid #FD3C3D;
+    transition: all .2s ease;
+}
+
+.trainer-card:hover::after {
+    width: 95%;
+    height: 95%;
+    border-color: #FD3C3D;
+    filter: none;
+}
