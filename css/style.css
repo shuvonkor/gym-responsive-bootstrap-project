@@ -375,9 +375,18 @@ body {
     width: 100%;
     height: auto;
 }
-.trainer-soicial-icon{
+
+.our-trainers-heading {
+    color: #FD3C3D;
+    font-size: 3rem !important;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+.trainer-soicial-icon {
     padding: 10px 0;
 }
+
 .trainer-soicial-icon a {
     color: #fff;
     background-color: #17181b;
@@ -387,10 +396,12 @@ body {
 .trainer-soicial-icon a:hover {
     background-color: #FD3C3D;
 }
-.tranner-image{
+
+.tranner-image {
     padding-left: 0;
     padding-right: 0;
 }
+
 .tranner-image img {
     overflow: none;
     width: 100%;
@@ -407,7 +418,8 @@ body {
 .trainer-text h5 {
     color: #FD3C3D;
 }
-.trainer-text p{
+
+.trainer-text p {
     padding: 25px 0;
 }
 
@@ -428,4 +440,31 @@ body {
     height: 95%;
     border-color: #FD3C3D;
     filter: none;
+}
+
+/* gym offer  */
+.gym-offer {
+    background-image: url(/image/statisticbg.jpg);
+    height: auto;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.gym-offer-row{
+    padding: 100px 0;
+}
+
+.gym-offer-button button {
+    color: #fff;
+    padding: 10px 30px;
+    border-color: #fff;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-radius: none !important;
+}
+
+.gym-offer-button button:hover {
+    background-color: #fff !important;
+    color: #FD3C3D !important;
+    border: none;
 }
