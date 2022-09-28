@@ -200,6 +200,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 
+
 }
 
 .popular-classis h1 {
@@ -214,10 +215,10 @@ body {
 
 .popular-classis-card {
     background-color: #181A1F;
+    overflow: none;
 }
 
-.popular-classis-card,
-.latest-blog-card::after {
+.popular-classis-card:after {
     content: '';
     position: absolute;
     right: 0;
@@ -229,8 +230,7 @@ body {
     transition: all .2s ease;
 }
 
-.popular-classis-card,
-.latest-blog-card:hover::after {
+.popular-classis-card:hover::after {
     width: 95%;
     height: 95%;
     border-color: #FD3C3D;
@@ -687,6 +687,23 @@ li .fa-xmark {
 .latest-blog-card-body ul li span {
     padding-left: 15px;
 }
+.latest-blog-card:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0%;
+    height: 0%;
+    border-bottom: 3px solid #FD3C3D;
+    border-right: 3px solid #FD3C3D;
+    transition: all .2s ease;
+}
+
+.latest-blog-card:hover::after {
+    width: 95%;
+    height: 95%;
+    border-color: #FD3C3D;
+}
 
 /* FEATURED ON  */
 .featured-on {
@@ -705,4 +722,27 @@ li .fa-xmark {
     font-weight: 900;
     margin-bottom: 40px;
     text-transform: uppercase;
+}
+/* 3 DAY FREE TRIAL  */
+input{
+    background: #000;
+}
+textarea{
+    color: #fff !important;
+}
+.form-control::placeholder{
+    color: #fff;
+}
+.form-button button{
+    padding: 10px 40px;
+    border: none;
+    background-color: #FD3C3D;
+    color: #fff;
+    font-size: 1.4rem;
+
+}
+.form-button button:hover{
+    color: #FD3C3D;
+    background: #fff;
+    border: 2px solid #FD3C3D;
 }
