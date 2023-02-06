@@ -195,7 +195,7 @@ body {
 } */
 /* popular-classis  */
 .popular-classis {
-    background-image: url(./image/popular\ clasic\ bg.jpg);
+    background-image: url(../image/popular\ clasic\ bg.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -320,7 +320,7 @@ body {
 
 /* OUR ADVANTAGES  */
 .advantages {
-    background-image: url(./image/our\ advantage.jpg);
+    background-image: url(../image/our\ advantage.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -358,7 +358,7 @@ body {
 
 /* Gym statistic  */
 .statistic {
-    background-image: url(./image/statisticbg.jpg);
+    background-image: url(../image/statisticbg.jpg);
     height: auto;
     width: 100%;
     text-align: center;
@@ -372,7 +372,7 @@ body {
 
 /* OUR TRAINERS  */
 .our-trainers {
-    background-image: url(./image/ourtrainersbg.jpg);
+    background-image: url(../image/ourtrainersbg.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -448,7 +448,7 @@ body {
 
 /* gym offer  */
 .gym-offer {
-    background-image: url(./image/statisticbg.jpg);
+    background-image: url(../image/statisticbg.jpg);
     height: auto;
     width: 100%;
     background-attachment: fixed;
@@ -687,6 +687,7 @@ li .fa-xmark {
 .latest-blog-card-body ul li span {
     padding-left: 15px;
 }
+
 .latest-blog-card:after {
     content: '';
     position: absolute;
@@ -723,17 +724,21 @@ li .fa-xmark {
     margin-bottom: 40px;
     text-transform: uppercase;
 }
+
 /* 3 DAY FREE TRIAL  */
-input{
+input {
     background: #000;
 }
-textarea{
+
+textarea {
     color: #fff !important;
 }
-.form-control::placeholder{
+
+.form-control::placeholder {
     color: #fff;
 }
-.form-button button{
+
+.form-button button {
     padding: 10px 40px;
     border: none;
     background-color: #FD3C3D;
@@ -741,7 +746,8 @@ textarea{
     font-size: 1.4rem;
 
 }
-.form-button button:hover{
+
+.form-button button:hover {
     color: #FD3C3D;
     background: #fff;
     border: 2px solid #FD3C3D;
