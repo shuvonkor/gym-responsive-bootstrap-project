@@ -195,7 +195,7 @@ body {
 } */
 /* popular-classis  */
 .popular-classis {
-    background-image: url(/image/popular\ clasic\ bg.jpg);
+    background-image: url(./image/popular\ clasic\ bg.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -320,7 +320,7 @@ body {
 
 /* OUR ADVANTAGES  */
 .advantages {
-    background-image: url(/image/our\ advantage.jpg);
+    background-image: url(./image/our\ advantage.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -358,7 +358,7 @@ body {
 
 /* Gym statistic  */
 .statistic {
-    background-image: url(/image/statisticbg.jpg);
+    background-image: url(./image/statisticbg.jpg);
     height: auto;
     width: 100%;
     text-align: center;
@@ -372,7 +372,7 @@ body {
 
 /* OUR TRAINERS  */
 .our-trainers {
-    background-image: url(/image/ourtrainersbg.jpg);
+    background-image: url(./image/ourtrainersbg.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -448,7 +448,7 @@ body {
 
 /* gym offer  */
 .gym-offer {
-    background-image: url(/image/statisticbg.jpg);
+    background-image: url(./image/statisticbg.jpg);
     height: auto;
     width: 100%;
     background-attachment: fixed;
